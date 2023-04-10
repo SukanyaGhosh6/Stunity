@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009cff"
+    tools:context=".ChatScreenActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardchatandmore"
+        android:layout_width="match_parent"
+        android:layout_height="60sp">
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chat &amp; More"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/metro_m"
+            android:layout_marginTop="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="100sp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardfindafriend"
+        android:layout_width="380sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="110sp"
+        android:layout_marginLeft="17sp"
+        app:cardCornerRadius="6sp">
+        <TextView
+            android:id="@+id/txtfindafriend"
+            android:layout_width="380sp"
+            android:layout_height="70sp"
+            android:text="Find a friend"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:fontFamily="@font/metro_m"
+            android:textStyle="bold"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="19sp"/>
+        <ImageView
+            android:id="@+id/imageperson"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/baseline_person_search_24"
+            android:layout_marginTop="15sp"
+            android:layout_marginLeft="20sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/awesome1"
+        android:layout_width="380sp"
+        android:layout_height="80sp"
+        app:cardCornerRadius="8sp"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="17sp">
+        <ImageView
+            android:id="@+id/imageperson1"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/baseline_person_24"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"/>
+        <TextView
+            android:id="@+id/txtawesome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Awesome! Great discussion to be in,Mr.XYZ"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="70sp"
+            android:textSize="20sp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardawesome"
+        android:layout_width="380sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="300sp"
+        android:layout_marginLeft="17sp">
+        <ImageView
+            android:id="@+id/imageperson2"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/baseline_person_24"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"/>
+        <TextView
+            android:id="@+id/txtawesome2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Awesome! Great discussion to be in,Mr.XYZ"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="70sp"
+            android:textSize="20sp"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

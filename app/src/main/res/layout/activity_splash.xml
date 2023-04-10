@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009cff"
+    tools:context=".SplashActivity">
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="240dp"
+        android:src="@drawable/stunity_logo"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Stunity"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="80sp"
+        android:fontFamily="@font/metro_m"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Community App For Students"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="45sp"
+        android:fontFamily="@font/metro_m"/>
+
+
+</RelativeLayout>

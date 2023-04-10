@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009cff"
+    tools:context=".NewTopicScreenActivity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardwritenewtopic"
+        android:layout_width="match_parent"
+        android:layout_height="60sp">
+        <TextView
+            android:id="@+id/txtnewtopic1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/write_new_topic"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/metro_m"
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="85sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardnewtopics"
+        android:layout_width="350sp"
+        android:layout_height="340sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="30sp">
+        <TextView
+            android:id="@+id/txtnewtopic2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="New Topics"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carddepartment"
+        android:layout_width="350sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="480sp"
+        android:layout_marginLeft="33sp"
+
+        app:cardCornerRadius="8sp">
+
+        <EditText
+
+            android:id="@+id/edtDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/metro_m"
+            android:text="Department"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="350sp"
+            android:layout_height="70sp"
+            android:layout_below="@id/edtDepartment"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/btnsubmit1"
+        android:layout_width="350sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/black"
+        android:text="@string/submit1"
+        android:textStyle="bold"
+        android:fontFamily="@font/metro_m"
+        android:textSize="19sp"
+        android:layout_marginBottom="50sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Stunity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number">Phone number</string>
+    <string name="_91">+91</string>
+    <string name="send_otp_to_log_in_sign_up">SEND OTP TO LOG IN/SIGN UP</string>
+    <string name="_9358551430">9358551430</string>
+    <string name="enteryourname">Enter your name</string>
+    <string name="department">Department</string>
+    <string name="collegename">College Name</string>
+    <string name="EmailId">emailid</string>
+    <string name="submit">Submit</string>
+    <string name="this_is_topic_1">This is Topic 1</string>
+    <string name="Topic1">This is Topic1</string>
+    <string name="Topic2">This is Topic2</string>
+    <string name="Topic3">topic3</string>
+    <string name="Topic4">Topic4</string>
+    <string name="write_yours">Write Yours</string>
+    <string name="writesource">Write Yours</string>
+    <string name="thisistopic1">This is Topic 1</string>
+    <string name="greatdiscussion">Awesome!Great discussion to be in Mr.XYZ</string>
+    <string name="goodtopic">Agree this is a good topic Mr.ABC</string>
+    <string name="writeopinion">Write your opinion/feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="submit1">Submit</string>
+    <string name="write_new_topic">Write new Topic</string>
+    <string name="writenewtopic">Write new topic</string>
+    <string name="Department">Department</string>
+    <string name="chatandmore">Chat and more</string>
+    <string name="findafriend">Find a friend</string>
+    <string name="great">Awesome! Great discussion to be in,Mr.XYZ</string>
+    <string name="complements">Awesome!great discussion to be in Mr.XYZ</string>
+    <string name="mrxyz">Mr.XYZ</string>
+    <string name="mrxyzcse">Mr.XYZ CSE</string>
+    <string name="cse">Mr..XYZ CSE</string>
+    <string name="civil">Mr.XYZ CIVIL</string>
+    <string name="mechanical">Mr.XYZ MECHANICAL</string>
+</resources>

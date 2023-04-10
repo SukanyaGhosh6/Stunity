@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009cff"
+    tools:context=".HomeScreen">
+<androidx.cardview.widget.CardView
+    android:layout_width="340sp"
+    android:layout_height="70sp"
+    android:layout_marginTop="80sp"
+    android:layout_marginLeft="35sp"
+    app:cardCornerRadius="6sp">
+<TextView
+    android:layout_width="340sp"
+    android:layout_height="70sp"
+    android:text="Topic"
+    android:textColor="@color/black"
+    android:textSize="25sp"
+    android:fontFamily="@font/metro_m"
+    android:textStyle="bold"
+    android:layout_marginLeft="130sp"
+    android:layout_marginTop="15sp"/>
+    <ImageView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:src="@drawable/baseline_article_24"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="20sp"/>
+    <ImageView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:src="@drawable/baseline_arrow_circle_right_24"
+        android:layout_marginLeft="280sp"
+        android:layout_marginTop="15sp"/>
+
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="340sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="180sp"
+        android:layout_marginLeft="35sp"
+        app:cardCornerRadius="6sp">
+        <TextView
+            android:layout_width="340sp"
+            android:layout_height="70sp"
+            android:text="Search a friend"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:fontFamily="@font/metro_m"
+            android:textStyle="bold"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="19sp"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/baseline_person_search_24"
+            android:layout_marginTop="15sp"
+            android:layout_marginLeft="20sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="340sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="280sp"
+        android:layout_marginLeft="35sp"
+        app:cardCornerRadius="6sp">
+        <TextView
+            android:layout_width="340sp"
+            android:layout_height="70sp"
+            android:text="Chat &amp; more"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:fontFamily="@font/metro_m"
+            android:textStyle="bold"
+            android:layout_marginLeft="85sp"
+            android:layout_marginTop="15sp"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/baseline_chat_bubble_24"
+            android:layout_marginTop="15sp"
+            android:layout_marginLeft="20sp"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/baseline_arrow_circle_right_24"
+            android:layout_marginLeft="280sp"
+            android:layout_marginTop="15sp"/>
+
+    </androidx.cardview.widget.CardView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:layout_above="@+id/bottom_navigation"/>
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"/>
+
+
+</RelativeLayout>

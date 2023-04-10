@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "126928695298",
+    "project_id": "stunity-5e0e8",
+    "storage_bucket": "stunity-5e0e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126928695298:android:2c8ec54dacf9fd61bfb71b",
+        "android_client_info": {
+          "package_name": "com.example.stunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126928695298-najofbcbh5t0hb0vhf71a6gqcej2ihk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGGBpbYaryrf2f-I11BLU_-fHfRGYGCnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126928695298-najofbcbh5t0hb0vhf71a6gqcej2ihk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

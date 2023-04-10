@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#009cff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding">
+    <androidx.cardview.widget.CardView
+        android:layout_width="380sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="17sp"
+        app:cardCornerRadius="10sp">
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:fontFamily="@font/metro_m" />
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="380sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="17sp"
+        app:cardCornerRadius="10sp">
+
+        <EditText
+            android:id="@+id/edtCollegeName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/metro_m"
+            android:text="College Name"
+
+            tools:ignore="DuplicateClickableBoundsCheck" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="380sp"
+            android:layout_height="70sp"
+            android:layout_below="@id/edtCollegeName"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="380sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="17sp"
+        app:cardCornerRadius="10sp">
+
+        <EditText
+            android:id="@+id/edtDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/metro_m"
+            android:text="Department"
+            tools:ignore="DuplicateClickableBoundsCheck" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="380sp"
+            android:layout_height="70sp"
+            android:layout_below="@id/edtDepartment"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="350sp"
+        android:layout_marginLeft="17sp"
+        app:cardCornerRadius="10sp">
+<EditText
+    android:id="@+id/edtEmailId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Email ID"
+    android:inputType="textEmailAddress"
+    android:fontFamily="@font/metro_m"/>
+
+    </androidx.cardview.widget.CardView>
+    <Button android:id="@+id/submitbtn"
+        android:layout_width="350sp"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/black"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:fontFamily="@font/metro_m"
+        android:textSize="19sp"
+        android:layout_marginBottom="50sp"/>
+
+</RelativeLayout>
