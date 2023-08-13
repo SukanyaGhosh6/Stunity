@@ -1,5 +1,5 @@
 # Stunity
-
+# Screenshots of the App
 ![Screenshot (154)](https://github.com/SukanyaGhosh6/Stunity/assets/78369568/463a33ca-81e6-4e49-8553-bbca18817d32)
 
 ![Screenshot (155)](https://github.com/SukanyaGhosh6/Stunity/assets/78369568/2c8a9ba6-e7e7-4d93-a22d-7c295fc71c9e)
